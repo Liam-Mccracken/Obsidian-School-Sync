@@ -43,3 +43,13 @@ The partitioning function divides the array into two parts relative to a pivot, 
 - ![[Pasted image 20241028161313.png]]
 - Worst case occurs when the partition only has one element 
 ![[Pasted image 20241028161357.png]]
+![[Pasted image 20241028162827.png]]
+![[Pasted image 20241028162836.png]]
+3 is pivot
+1: move to end of array to get out of way
+2: look for itemfromleft (first item from left larger than pivot)
+3. look for itemfromright (first item from right larger than pivot)
+4. ![[Pasted image 20241028162923.png]]
+5. Now we swap these items and continue, swapping stops when item from left is > than item from right (continue from swapped position after switching) 
+6. ![[Pasted image 20241028163042.png]]
+7. When this occurs u swap the pivot and the point where the condition breaks now the pivot must be in the correct position so u continue the same process with the left and right subarrays and then rejoin the other arrays to form the final value.
