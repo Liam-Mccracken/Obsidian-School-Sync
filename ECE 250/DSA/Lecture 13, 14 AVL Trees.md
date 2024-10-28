@@ -1,7 +1,7 @@
 
 ## Binary Search Tree (BST)
 - **Worst-case height:** O(N) (if the tree degenerates into a list).
-- **Ideal height:** Θ(log N).
+- **Ideal height:** Θ(log N). 
 - **Goal:** Maintain height as O(log N) for efficiency in insertion, deletion, and searching.
 
 ---
