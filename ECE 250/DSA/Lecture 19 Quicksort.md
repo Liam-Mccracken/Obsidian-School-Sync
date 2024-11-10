@@ -40,7 +40,7 @@ The partitioning function divides the array into two parts relative to a pivot, 
 
 ## Analysis of Quicksort
 - running time depends on the distribution of the splits
-- ![[Pasted image 20241028161313.png]]
+![[Pasted image 20241028161313.png]]
 - Worst case occurs when the partition only has one element 
 ![[Pasted image 20241028161357.png]]
 ![[Pasted image 20241028162827.png]]
