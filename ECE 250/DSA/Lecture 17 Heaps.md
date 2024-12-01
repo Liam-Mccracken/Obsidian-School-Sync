@@ -156,3 +156,7 @@ This example demonstrates how a **Max-Priority Queue** maintains the **Max-Heap 
 2. **Bubble it up** by swapping with parents until the Max-Heap property is restored.
 
 This operation ensures that **future extractions** (like `Extract-Max`) still return the largest element efficiently from the root.
+
+
+
+- usually implement priority queues within min-heap structures but it is not limited to this implementation, it can also be implemented with a BST or unsorted area

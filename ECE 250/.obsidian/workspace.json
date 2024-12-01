@@ -1,56 +1,68 @@
 {
   "main": {
-    "id": "c17ed487df36b834",
+    "id": "1fa77904f1fe1b02",
     "type": "split",
     "children": [
       {
-        "id": "5b7b94b1d120574c",
+        "id": "8937db24a5cbcfb5",
         "type": "tabs",
         "children": [
           {
-            "id": "64ccf908d4a31c98",
+            "id": "cd205ad602f5c27c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Lecture 19 Quicksort.md",
+                "file": "DSA/Lec 23 - 25  Dynamic Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 19 Quicksort"
+              "title": "Lec 23 - 25  Dynamic Programming"
             }
           },
           {
-            "id": "3f37c0e13e8edbe8",
+            "id": "3e8a51b1c85e09e4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
+            "id": "5cd5321718f1ae3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Lecture 20 - Sorting in Linear Time.md",
+                "file": "DSA/Final Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 20 - Sorting in Linear Time"
+              "title": "Final Summary"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ade63b6877067e43",
+    "id": "e6b963959f13a365",
     "type": "split",
     "children": [
       {
-        "id": "0e4f2d25988c3dd0",
+        "id": "9d3889e22c46db78",
         "type": "tabs",
         "children": [
           {
-            "id": "8b5e0857ea23780d",
+            "id": "e37c6558092b9c3b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +74,7 @@
             }
           },
           {
-            "id": "320859b3c7c636f3",
+            "id": "7eede289fd7b4e55",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +91,7 @@
             }
           },
           {
-            "id": "3f81c271301514df",
+            "id": "68bea7d3824f3708",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,24 +104,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "ed770bc9429bab86",
+    "id": "38a4226cfe6f6a0e",
     "type": "split",
     "children": [
       {
-        "id": "fce26a62f7cf26cf",
+        "id": "82d00095a9fbb88c",
         "type": "tabs",
         "children": [
           {
-            "id": "5863ea4c330be1e8",
+            "id": "cef8e6e5ae34b03e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/Lecture 17 Heaps.md",
+                "file": "DSA/Lec 23 - 25  Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +130,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 17 Heaps"
+              "title": "Backlinks for Lec 23 - 25  Dynamic Programming"
             }
           },
           {
-            "id": "7b78629563333991",
+            "id": "a7c5376b7025e813",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/Lecture 17 Heaps.md",
+                "file": "DSA/Lec 23 - 25  Dynamic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 17 Heaps"
+              "title": "Outgoing links from Lec 23 - 25  Dynamic Programming"
             }
           },
           {
-            "id": "cbbcd57f4e14d6f5",
+            "id": "9f978d4289b5ec7a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -150,15 +161,15 @@
             }
           },
           {
-            "id": "98bc0377a1b1ea73",
+            "id": "e6bf459bdf814a89",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/Lecture 17 Heaps.md"
+                "file": "DSA/Lec 23 - 25  Dynamic Programming.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 17 Heaps"
+              "title": "Outline of Lec 23 - 25  Dynamic Programming"
             }
           }
         ]
@@ -170,47 +181,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "yet-another-obsidian-synchronizer:YAOS": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "3f37c0e13e8edbe8",
+  "active": "5cd5321718f1ae3c",
   "lastOpenFiles": [
-    "Pasted image 20241029100703.png",
-    "DSA/Lecture 19 Quicksort.md",
-    "DSA/Lecture 17 Heaps.md",
-    "DSA/Lecture 20 - Sorting in Linear Time.md",
-    "Images/Pasted image 20241029100249.png",
-    "Images/Pasted image 20241029095528.png",
-    "Images/Pasted image 20241028104641.png",
-    "Images/Pasted image 20241028101728.png",
-    "DSA/Lecture 15, 16 B-Trees.md",
-    "Images/Pasted image 20241007210141.png",
-    "Images/Pasted image 20241007210133.png",
-    "DSA/Lecture 13, 14 AVL Trees.md",
-    "Images/Pasted image 20241028113709.png",
-    "Images/Pasted image 20241028113555.png",
-    "Images/Pasted image 20241028113355.png",
-    "Images/d3.png",
-    "Asymptotic Notation/Lecture 1 - Time Complexity, Merge Sort, Insertion Sort.md",
-    "DSA/Lecture 7 Stack and Queues.md",
-    "DSA/Lecture 11, 12 Binary Search Trees.md",
-    "DSA/Lecture 8,9 Hash Tables.md",
-    "DSA/Lecture 10 Trees.md",
-    "Asymptotic Notation/Lecture 2.md",
-    "Images",
-    "Asymptotic Notation/add to coding understanding later.md",
-    "Project Stuff/Details.md",
-    "Project Stuff",
-    "Lecture 2.md",
-    "Welcome.md",
-    "Test Page.md",
-    "Lecture 1.md",
-    "desktop.ini"
+    "DSA/Final Summary.md",
+    "DSA/Lecture 21 - Radix Sort.md",
+    "DSA/Run Time Summary.md"
   ]
 }

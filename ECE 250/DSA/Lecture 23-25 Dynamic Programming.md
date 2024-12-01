@@ -2,7 +2,7 @@ Dynamic Programming – Part A
 ## Algorithm Design Techniques
 
 1. **Iterative (brute force) Algorithms**: E.g., insertion sort, selection sort.
-2. **Data Structure-based Algorithms**: E.g., heap sort.
+2. **Data Structure-based Algorithms**: E.g., heap sort (uses bst) 
 3. **Divide and Conquer**: E.g., merge sort, quicksort, binary search
 
 ## Divide and Conquer
@@ -44,48 +44,52 @@ Merge-Sort(A,p,r)
 
 - **History**: Invented by Richard Bellman in the 1950s for multi-stage decision processes.
 - **Optimization Problems**: Choose a solution that minimizes or maximizes a value. Store solution to each subproblem in case it should reappear
-- **Solution Exhibits a Structure**
+	- **Solution Exhibits a Structure**
 	- It consists of a string of choices that were made - what choices have to be made to arrive at an optimal solution?
-- An algorithm should compute the **optimal value** plus if needed, **an optimal solution**
+	- An algorithm should compute the **optimal value** plus if needed, **an optimal solution**
 ## Multiply Matirices
 - Two matrices, A - nxm matrix and B - mxk matrix, can be multiplied to get C with dimensions nxk using nmk scalar multiplications![[Pasted image 20241110174651.png]]
 - Parenthesization matters to this question so it cannot be ignored 
 ## How to develop a DP (dynamic programming) Algorithm
 
 - **Step 1:** Characterize the structure of an optimal solution
-- **Step 2:** Write a recurrence for the value of an optimal solution
+- **Step 2:** Write a recurrence for the value of an optimal solution 
+	- Remember it mentions storing solutions to sub problems in case they were to reappear 
 - **Step 3:** Compute the value of an optimal solution typically in a bottom-up fashion.
 - **Step 4:** Construct an optimal solution from computed information
 
-**Step 1:**
+**Step 1:** Characterize the structure of an optimal solution 
 ![[Pasted image 20241110175320.png]]
-
-
+**Step 2: Write a recurrence for the value of an optimal solution**
+![[Pasted image 20241128185049.png]]
+- If we were to use a simple recursive approach we would get **exponential time complexity due to the redundant calculations of overlapping terms**
+![[Pasted image 20241128185332.png]]
+**Step 3:** Compute the value of an optimal solution!
+![[Pasted image 20241128185033.png]]
+**Step 4:** Construct an optimal solution from computed info
+![[Pasted image 20241128185501.png]]
+- Now with this optimal solution we can see that the running time is linear and no additional space is required.
+![[Pasted image 20241128185526.png]]
 ---
-
-# Lecture 24: Dynamic Programming – Part B
-
-## Matrix Chain Multiplication
-
-- **Example Matrices**:
-    - A1:30×35A_1: 30 \times 35A1​:30×35, A2:35×15A_2: 35 \times 15A2​:35×15, A3:15×5A_3: 15 \times 5A3​:15×5, etc.
-- **Algorithm**:
-    
-    1. Compute optimal cost in M[1,n]M[1,n]M[1,n].
-    2. Store splits in S[i,j]S[i,j]S[i,j] for optimal parenthesization.
-    
-    - **Time Complexity**: Θ(n3)\Theta(n^3)Θ(n3).
-    - **Space Complexity**: Θ(n2)\Theta(n^2)Θ(n2).
-
+Another DP Problem
 ## Longest Common Subsequence (LCS)
-
-- **Applications**: DNA sequence alignment, spell checking.
-- **Problem**: Find the maximum-length common subsequence between two strings.
+![[Pasted image 20241128185631.png]]
+![[Pasted image 20241128185637.png]]
+Recall Strategy for solving: 
 - **Approach**:
     1. Define optimal substructure.
     2. Use recurrence relation for LCS length.
     3. Fill table to compute LCS length.
     4. Reconstruct LCS using backtracking.
+**Step 1: Optimal Substructure:**  
+![[Pasted image 20241128190021.png]]
+**Step 2:** Use recurrence relation for LCS length
+![[Pasted image 20241128190126.png]]
+**Step 3 : Computer The value Optimal Solution: (using what u just decided)**
+![[Pasted image 20241128190328.png]]
+**Step 4:** Construct a LCS i.e Construct Optimal Solution Based on findings
+![[Pasted image 20241128190426.png]]
+
 
 ---
 
@@ -99,10 +103,7 @@ Merge-Sort(A,p,r)
 4. **Construct Solution**.
 
 ## Checkerboard (CB) Problem
-
-- **Goal**: Move a checker from the bottom to the top edge of an n×nn \times nn×n board, maximizing dollar collection.
-- **Moves Allowed**:
-    - Directly above.
-    - Diagonally up-left (if not in the leftmost column).
-    - Diagonally up-right (if not in the rightmost column).
-- **Objective**: Maximize dollars collected from allowed moves.
+- Gonna have to come back to DP problems cause erm
+![[Pasted image 20241128191055.png]]
+![[Pasted image 20241128191205.png]]![[Pasted image 20241128191129.png]]
+![[Pasted image 20241128191153.png]]
